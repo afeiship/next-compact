@@ -1,6 +1,6 @@
 {
   "name": "next-compact",
-  "description": "Returns a copy of the array with all falsy values removed.",
+  "description": "Returns a copy of the array/object with all falsy values removed.",
   "main": "dist/next-compact.js",
   "authors": [
     "afei"

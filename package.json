@@ -1,7 +1,7 @@
 {
   "name": "next-compact",
   "version": "1.0.0",
-  "description": "Returns a copy of the array with all falsy values removed.",
+  "description": "Returns a copy of the array/object with all falsy values removed.",
   "homepage": "https://github.com/afeiship/next-compact",
   "author": {
     "name": "afei",

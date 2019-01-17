@@ -1,5 +1,5 @@
 # next-compact
-> Returns a copy of the array with all falsy values removed.
+> Returns a copy of the array/object with all falsy values removed.
 
 ## installl:
 ```bash
