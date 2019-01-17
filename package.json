@@ -1,6 +1,6 @@
 {
   "name": "next-compact",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Returns a copy of the array with all falsy values removed.",
   "homepage": "https://github.com/afeiship/next-compact",
   "author": {
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "test": "mocha"
+    "test": "jest"
   },
   "main": "dist/next-compact.js",
   "license": "MIT",
@@ -19,10 +19,9 @@
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2",
-    "mocha": "^3.5.0",
+    "jest": "^23.6.0",
     "yargs": "^4.7.1"
   },
   "dependencies": {
