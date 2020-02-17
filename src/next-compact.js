@@ -1,9 +1,9 @@
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.compact = function(inTarget) {
-    var isary = inTarget instanceof Array;
+    var isary = Array.isArray(inTarget);
     var result = isary ? [] : {};
     nx.each(inTarget, function(key, value) {
       if (value) {

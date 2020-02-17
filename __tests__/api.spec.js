@@ -1,7 +1,7 @@
-var nx = require('next-js-core2');
+const nx = require('@feizheng/next-js-core2');
 require('../src/next-compact');
 
-describe('nx.remove', function() {
+describe('api.basic test', () => {
   var arr1 = [0, 1, false, 2, '', 3];
   var obj = {
     name: 'fei',

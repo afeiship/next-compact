@@ -1,13 +1,15 @@
 # next-compact
 > Returns a copy of the array/object with all falsy values removed.
 
-## installl:
+## installation
 ```bash
-npm install -S afeiship/next-compact --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-compact
 ```
 
-## usage:
+## usage
 ```js
+import '@feizheng/next-compact';
+
 var arr1 = [0, 1, false, 2, '', 3];
 var obj = {
   name: 'fei',
