@@ -1,20 +1,20 @@
 /*!
- * name: @feizheng/next-compact
+ * name: @jswork/next-compact
  * description: Returns a copy of the array/object with all falsy values removed.
- * url: https://github.com/afeiship/next-compact
+ * homepage: https://github.com/afeiship/next-compact
  * version: 1.0.0
- * date: 2020-02-17 13:06:56
+ * date: 2020-11-22 16:57:20
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
-  nx.compact = function(inTarget) {
+  nx.compact = function (inTarget) {
     var isary = Array.isArray(inTarget);
     var result = isary ? [] : {};
-    nx.each(inTarget, function(key, value) {
+    nx.each(inTarget, function (key, value) {
       if (value) {
         isary ? result.push(value) : (result[key] = value);
       }
@@ -26,5 +26,3 @@
     module.exports = nx.compact;
   }
 })();
-
-//# sourceMappingURL=next-compact.js.map
