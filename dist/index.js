@@ -3,7 +3,7 @@
  * description: Returns a copy of the array/object with all falsy values removed.
  * homepage: https://github.com/afeiship/next-compact
  * version: 1.0.0
- * date: 2020-11-22 16:57:20
+ * date: 2020-11-22 17:02:02
  * license: MIT
  */
 
