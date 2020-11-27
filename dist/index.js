@@ -2,8 +2,8 @@
  * name: @jswork/next-compact
  * description: Returns a copy of the array/object with all falsy values removed.
  * homepage: https://github.com/afeiship/next-compact
- * version: 1.0.0
- * date: 2020-11-27 17:17:44
+ * version: 1.0.1
+ * date: 2020-11-27 17:18:27
  * license: MIT
  */
 

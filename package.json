@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-compact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns a copy of the array/object with all falsy values removed.",
   "homepage": "https://github.com/afeiship/next-compact",
   "author": {
@@ -39,6 +39,7 @@
   },
   "keywords": [
     "compact",
-    "next"
+    "next",
+    "array"
   ]
 }
