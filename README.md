@@ -15,19 +15,14 @@ npm install -S @jswork/next-compact
 ```js
 import '@jswork/next-compact';
 
-var arr1 = [0, 1, false, 2, '', 3];
-var obj = {
-  name: 'fei',
-  age: 0,
-  test: 12,
-  ni: null,
-  tes2: undefined
-};
+const arr1 = [0, 1, false, 2, '', 3];
+const arr2 = [0, 1, false, 2, '', 3, [], [], 'a'];
 
-var result1 = nx.compact(arr);
-var result2 = nx.compact(obj);
+const result1 = nx.compact(arr);
+const result2 = nx.compact(obj);
+
 // [1, 2, 3]
-// { name: 'fei', test: 12 }
+// [1, 2, 3, 'a']
 ```
 
 ## license
