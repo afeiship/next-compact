@@ -1,5 +1,5 @@
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = typeof window !== 'undefined' ? window : this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   var isEmpty = function (value) {
     return !value || (value && value.length === 0);
