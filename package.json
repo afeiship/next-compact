@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-compact",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Returns a copy of the array/object with all falsy values removed.",
   "homepage": "https://github.com/afeiship/next-compact",
   "author": {
@@ -40,6 +40,10 @@
   "keywords": [
     "compact",
     "next",
-    "array"
+    "array",
+    "filter",
+    "nil",
+    "false",
+    "falsy"
   ]
 }
